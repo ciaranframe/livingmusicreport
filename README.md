@@ -1,5 +1,5 @@
 # Living Music Report
-###:musical_note: The open dataset for the Living Music Report
+### :musical_note: The open dataset for the Living Music Report
 
 Welcome to the open dataset for the Living Music Report. We welcome fact-checking, investigation and re-use of the data found within!
 
@@ -37,7 +37,7 @@ Named `MPAInit`  (e.g. SSO)
 
 Contains the following folders and files:
 
-####MPA season summary file
+#### MPA season summary file
 Summarises all _series_ performed by the MPA in a given year. Note that this is the concert series, not the performance (i.e. the series may have been performed more than one time, noted in `SeriesPerfs`).
 
 Currently this summary only includes 2019 performances, but will include all years in the future.
@@ -54,7 +54,7 @@ Named `MPAInit` + YYYY + summary.csv (e.g. `MSO2019summary.csv`)
 |`SeriesEd` | 6 | Binary | Was the series part of an education program? (Y=1/N=0) | 1 |
 |`SeriesInt` | 6 | Binary | Did the series have an interval? (Y=1/N=0) | 1 |
 
-####MPA season detail subfolder
+#### MPA season detail subfolder
 
 Named `MPAInit` + YYYY (e.g. MSO2019)
 
