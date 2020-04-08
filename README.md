@@ -8,12 +8,12 @@ This dataset is made available under the [Open Database License](http://opendata
 
 ## Repository format
 * LMR
-	* `MPAsummary.txt` (what MPAs contained in datase)
+	* `MPAsummary.csv` (what MPAs contained in datase)
 	* SSO (subfolders for every MPA)
-		* `SSO2019summary.txt` (season summary)
+		* `SSO2019summary.csv` (season summary)
 		* SSO2019 (season subfolder)
-			* `SSO2019001.txt` (individual series)
-			* `SSO2019002.txt`
+			* `SSO2019001.csv` (individual series)
+			* `SSO2019002.csv`
 			* ...
 	* ...
 
