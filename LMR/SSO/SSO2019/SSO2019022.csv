@@ -1,0 +1,4 @@
+CompName,CompBirth,CompLiving,CompNation,CompGender,CompCald,CompFn,WorkTitle,WorkLength,WorkYear,WorkAp,WorkWp,WorkInst
+Erno Dohnanyi,1877,N,Hungarian,M,N,N,"Serenade in C Major, Op.10",25,1902,N,N,String Trio
+Erno Dohnanyi,1877,N,Hungarian,M,N,N,Finnish Tango,5,1900,N,N,String Trio
+Dmitri Shostakovich,1906,N,Russian,M,N,N,"Two Pieces for String Octet, Op.11",10,1924,N,N,String Octet
