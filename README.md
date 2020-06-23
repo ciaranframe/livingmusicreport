@@ -1,7 +1,7 @@
 # Living Music Report
 ### :musical_note: The open dataset for the Living Music Report
 
-Welcome to the open dataset for the Living Music Report. We welcome fact-checking, investigation and re-use of the data found within!
+Welcome to the open dataset for the Living Music Report. Fact-checking, investigation and re-use of the data found within is all welcome!
 
 This dataset is made available under the [Open Database License](http://opendatacommons.org/licenses/odbl/1.0/). Any rights in individual contents of the database are licensed under the [Database Contents License](http://opendatacommons.org/licenses/dbcl/1.0/).
 
@@ -51,8 +51,8 @@ Named `MPAInit` + YYYY + summary.csv (e.g. `MSO2019summary.csv`)
 |`SeriesDate` | 3 | ISO8601 | The month (or estimate) of the series, based on the date of the first performance, in the format YYYY-MM |  2019-05 |
 |`SeriesPerfs` | 4 | N | The number of times the series was performed |  15 |
 |`SeriesVenue` | 5 | A | The location of the series (if multiple, "Various" is used) | Sydney's Opera House's Utzon Room |
-|`SeriesEd` | 6 | Binary | Was the series part of an education program? (Y=1/N=0) | 1 |
-|`SeriesInt` | 6 | Binary | Did the series have an interval? (Y=1/N=0) | 1 |
+|`SeriesEd` | 6 | Binary | Was the series part of an education program? (Y/N) | Y |
+|`SeriesInt` | 6 | Binary | Did the series have an interval? (Y/N) | N |
 
 #### MPA season detail subfolder
 
@@ -70,16 +70,16 @@ Individual series outline every work performed in the series as per the criteria
 |:------------- |:------:| :-----:|:-------------|:--------|
 |`CompName` | 1 | A | Full name of the composer | Peter Sculthorpe |
 |`CompBirth` | 2 | YYYY | Year of birth of the composer | 1929 |
-|`CompLiving` | 3 | Binary | Was the composer alive on 1 January 2020? (Y=1/N=0) |  0 |
+|`CompLiving` | 3 | Binary | Was the composer alive on 1 January 2020? (Y/N) |  N |
 |`CompNation` | 4 | A | The citizenship of the composer at time of composition |  Australian |
 |`CompGender` | 5 | A | The gender of the composer out of list as per report definitions (Male=M/Female=F/Non-binary=NB/Gender diverse=X) | M |
-|`CompCald` | 6 | Binary | Was/is the composer a CALD Australian as per report definitions? (Y=1/N=0) | 0 |
-|`CompFn` | 7 | Binary | Was/is the composer First Nations as per report definitions? (Y=1/N=0) | 0 |
+|`CompCald` | 6 | Binary | Was/is the composer a CALD Australian as per report definitions? (Y/N) | N |
+|`CompFn` | 7 | Binary | Was/is the composer First Nations as per report definitions? (Y/N) | N |
 |`WorkTitle` | 8 | A | The title of the work performed | Djilile |
 |`WorkLength` | 9 | N | The length of the work in minutes | 5 |
 |`WorkYear` | 10 | N | The year the work was written | 1986 |
-|`WorkAp` | 11 | Binary | Was the work an Australian Premiere? (Y=1/N=0) | N |
-|`WorkWp` | 12 | Binary | Was the work a World Premiere? (Y=1/N=0) | N |
+|`WorkAp` | 11 | Binary | Was the work an Australian Premiere? (Y/N) | N |
+|`WorkWp` | 12 | Binary | Was the work a World Premiere? (Y/N) | N |
 |`WorkInst` | 13 | A | Instrumentation of the work | Chamber orchestra |
 
 
