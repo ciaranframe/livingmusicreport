@@ -49,8 +49,8 @@ Named `MPAInit` + YYYY + summary.csv (e.g. `MSO2019summary.csv`)
 |`SeriesId` | 1 | AN | Unique arbitrary identifier of a concert series | ACO2019004 |
 |`SeriesName` | 2 | A | The full name of the series as per the program | Theres a Sea in My Bedroom |
 |`SeriesDate` | 3 | ISO8601 | The month (or estimate) of the series, based on the date of the first performance, in the format YYYY-MM |  2019-05 |
-|`SeriesPerfs` | 4 | N | The number of times the series was performed |  15 |
-|`SeriesVenue` | 5 | A | The location of the series (if multiple, "Various" is used) | Sydney's Opera House's Utzon Room |
+|`SeriesPerfs` | 4 | N | The number of times the series was performed (if Digital, 1) |  15 |
+|`SeriesVenue` | 5 | A | The location of the series (if multiple, "Various" is used; if online, "Digital" is used) | Sydney's Opera House's Utzon Room |
 |`SeriesEd` | 6 | Binary | Was the series part of an education program? (Y/N) | Y |
 |`SeriesInt` | 6 | Binary | Did the series have an interval? (Y/N) | N |
 
@@ -70,7 +70,7 @@ Individual series outline every work performed in the series as per the criteria
 |:------------- |:------:| :-----:|:-------------|:--------|
 |`CompName` | 1 | A | Full name of the composer | Peter Sculthorpe |
 |`CompBirth` | 2 | YYYY | Year of birth of the composer | 1929 |
-|`CompLiving` | 3 | Binary | Was the composer alive on 1 January 2020? (Y/N) |  N |
+|`CompLiving` | 3 | Binary | Was the composer alive on 31 December the year of report? (Y/N) |  N |
 |`CompNation` | 4 | A | The citizenship of the composer at time of composition |  Australian |
 |`CompGender` | 5 | A | The gender of the composer out of list as per report definitions (Male=M/Female=F/Non-binary=NB/Gender diverse=X) | M |
 |`CompCald` | 6 | Binary | Was/is the composer a CALD Australian as per report definitions? (Y/N) | N |
