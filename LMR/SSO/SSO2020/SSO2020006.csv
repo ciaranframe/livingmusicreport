@@ -1,0 +1,15 @@
+CompName,CompBirth,CompLiving,CompNation,CompGender,CompCald,CompFn,WorkTitle,WorkLength,WorkYear,WorkAp,WorkWp,WorkInst
+Ludwig van Beethoven,1770,N,German,M,N,N,Septet,3,1800,N,N,String septet
+Ross Edwards,1943,Y,Australian,M,N,N,Emerald Crossing,8,1999,N,N,Piano quartet
+William Barton,1981,Y,Australian,M,N,Y,Petrichor,11,2014,N,N,String quartet and didgeridoo
+William Barton,1981,Y,Australian,M,N,Y,Birdsong at Dusk,11,2014,N,N,String quartet and didgeridoo
+Ben Folds,1966,Y,American,M,N,N,Chamber Sounds Improvisation,16,2020,N,N,Chamber ensemble
+Giovanni Bottesini,1821,N,Italian,M,N,N,'Passione Amorosa' for two double basses and piano,7,1850,N,N,Double bass duo and piano
+Richard Meale,1932,N,Australian,M,N,N,Cantilena Pacifica,8,2012,N,N,String quartet
+Justin Williams,1980,Y,Australian,M,N,N,Movement for String Quartet,8,2020,Y,Y,String quartet
+David Stanhope,1952,Y,English,M,N,N,Three Folksongs for Brass Quintet,7,1978,N,N,Chamber ensemble
+Timothy Constable,1981,Y,Australian,M,N,N,Last Waltz,7,2009,N,N,Chamber ensemble
+Harry Sdraulig,1992,Y,Australian,M,N,N,Hat-trick,7,2020,Y,Y,Wind trio
+Guillaume Paque,1825,N,Belgian,M,N,N,Souvenir de Curis for cello quartet,4,1850,N,N,Cello quartet
+Johannes Brahms,1883,N,German,M,N,N,Clarinet Quintet in B minor,36,1891,N,N,Clarinet quintet
+Anton’n Dvor‡k,1841,N,Czech,M,N,N,Terzetto In C,17,1887,N,N,String trio
