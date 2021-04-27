@@ -40,8 +40,6 @@ Contains the following folders and files:
 #### MPA season summary file
 Summarises all _series_ performed by the MPA in a given year. Note that this is the concert series, not the performance (i.e. the series may have been performed more than one time, noted in `SeriesPerfs`).
 
-Currently this summary only includes 2019 performances, but will include all years in the future.
-
 Named `MPAInit` + YYYY + summary.csv (e.g. `MSO2019summary.csv`)
 
 | Attribute     | Pos.   |Format|Description | Example|
